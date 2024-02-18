@@ -1,0 +1,33 @@
+body{
+    background-image: url(img/vaquero.jpg);
+    background-size: 20%;
+    background-position: center;
+}
+
+.caja {
+    /* DIFUMINADO */
+    background: transparent;
+    backdrop-filter: blur(3px);
+    /* CENTRAR CAJA */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    /* OTRA FORMA 
+    display: grid;
+    display-items: center;
+    */
+    /* OTRA FORMA 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    */
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+}
